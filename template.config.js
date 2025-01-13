@@ -9,6 +9,4 @@ module.exports = {
   titlePlaceholder: "RN Template",
   // 템플릿 폴더를 지정합니다.
   templateDir: "./template",
-  // init 완료후 실행할 스크립트 파일입니다.
-  postInitScript: "./script.js",
 };
