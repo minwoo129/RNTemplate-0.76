@@ -1,0 +1,7 @@
+{
+  "name": "react-native-rmw-template",
+  "version": "0.0.1",
+  "description": "version 0.76.x, TypeScript, react-navigation, Redux, async-storage",
+  "author": "yuminwoo <key0129mw@gmail.com>",
+  "license": "MIT"
+}
