@@ -5,12 +5,12 @@
  * @format
  */
 
+import AppMain from '@pages/root/AppMain';
+import AppTest from '@pages/root/AppTest';
 import React, {useState} from 'react';
 import 'react-native-gesture-handler';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
-import AppTest from '@screens/root/AppTest';
-import AppMain from '@screens/root/AppMain';
 
 function App(): React.JSX.Element {
   const [devForm, setDevForm] = useState(true);

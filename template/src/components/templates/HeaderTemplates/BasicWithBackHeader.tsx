@@ -1,8 +1,8 @@
 import React, {FC} from 'react';
 import {BasicWithBackHeaderTemplateProps} from './types';
-import CommonHeader from '@organisms/CommonHeader';
-import HeaderTitle from '@atoms/HeaderTitle';
-import BackArrowButton from '@atoms/BackArrowButton';
+import CommonHeader from 'src/components/common/CommonHeader';
+import HeaderTitle from 'src/components/common/HeaderTitle';
+import BackArrowButton from 'src/components/common/BackArrowButton';
 
 const BasicWithBackHeaderTemplate: FC<BasicWithBackHeaderTemplateProps> = ({
   headerCustomStyle,

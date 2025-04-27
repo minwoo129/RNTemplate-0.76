@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import {BasicHeaderTemplateProps} from './types';
-import CommonHeader from '@organisms/CommonHeader';
-import HeaderTitle from '@atoms/HeaderTitle';
+import CommonHeader from '@components/common/CommonHeader';
+import HeaderTitle from '@components/common/HeaderTitle';
 
 const BasicHeader: FC<BasicHeaderTemplateProps> = ({
   headerCustomStyle,

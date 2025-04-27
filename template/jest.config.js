@@ -1,6 +1,7 @@
 /** @type {import('jest').Config} */
 module.exports = {
   preset: 'react-native',
+  setupFiles: ['./node_modules/react-native-gesture-handler/jestSetup.js'],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   transform: {

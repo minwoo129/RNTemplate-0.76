@@ -1,4 +1,4 @@
-import HeaderTemplates from '@templates/HeaderTemplates';
+import HeaderTemplates from '../HeaderTemplates';
 import {ComponentProps, ReactNode} from 'react';
 import {SafeAreaView, StyleProp, View, ViewStyle} from 'react-native';
 

@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import {SafeAreaView, StyleSheet, View} from 'react-native';
 import {BasicScreenTemplateProps} from './types';
-import HeaderTemplates from '@templates/HeaderTemplates';
+import HeaderTemplates from '../HeaderTemplates';
 
 const BasicScreen: FC<BasicScreenTemplateProps> = ({
   screenStyle,

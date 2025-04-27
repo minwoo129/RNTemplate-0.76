@@ -1,5 +1,5 @@
-import BackArrowButton from '@atoms/BackArrowButton';
-import HeaderTitle from '@atoms/HeaderTitle';
+import BackArrowButton from 'src/components/common/BackArrowButton';
+import HeaderTitle from 'src/components/common/HeaderTitle';
 import {ComponentProps} from 'react';
 import {StyleProp, ViewStyle} from 'react-native';
 
